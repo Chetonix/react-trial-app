@@ -6,9 +6,11 @@ import TextForm from './components/TextForm'
 function App() {
   return (
    <>
+   <div className="container">
      <Navbar title="TextUtils"/>
      {/* <Article /> */}
      <TextForm />
+    </div>
    </>
   );
 }
