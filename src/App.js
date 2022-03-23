@@ -9,7 +9,7 @@ function App() {
    <div className="container">
      <Navbar title="TextUtils"/>
      {/* <Article /> */}
-     <TextForm />
+     <TextForm heading="Enter the text below: "/>
     </div>
    </>
   );
