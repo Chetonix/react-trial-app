@@ -7,7 +7,7 @@ function App() {
   return (
    <>
      <Navbar title="TextUtils"/>
-     <Article />
+     {/* <Article /> */}
      <TextForm />
    </>
   );
