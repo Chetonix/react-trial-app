@@ -26,7 +26,7 @@ export default function TextForm(props) {
         const words = mySentence.split(" ");
 
         for (let i = 0; i < words.length; i++) {
-            words[i] = words[i][0].toUpperCase() + words[i].substring(1);
+            words[i] = words[i][0].toUpperCase() + words[i].substring(1).toLowerCase();
         }
         setText(words.join(" "));
     } 
